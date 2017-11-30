@@ -10,7 +10,7 @@ option = ["ROCK", "PAPER", "SCISSOR"] #defining the options
 LOSS_MESSAGE = "You Lost! LOL"
 WIN_MESSAGE = "You Won!"
 
-def decide_winner (user_choice, comp_choice):
+def decide_winner (user_choice, comp_choice): #Function to decide winner
   print "You selected: %s" %user_choice
   print "Computer selecting..."
   sleep (1)
@@ -37,13 +37,13 @@ def decide_winner (user_choice, comp_choice):
     print LOSS_MESSAGE
 def play_RPS():
   user_choice = raw_input ("Rock, Paper or Scissor? ")
-  user_choice = user_choice.upper()
+  user_choice = user_choice.upper() #To convert all characters in the string to UPPER CASE
   sleep(1)
   comp_choice = option [randint (0, 2)]
-  if (user_choice == "ROCK" or user_choice == "PAPER" or user_choice == "SCISSOR" or user_choice == "SCISSORS"):
-    decide_winner (user_choice, comp_choice)
+  if (user_choice == "ROCK" or user_choice == "PAPER" or user_choice == "SCISSOR" or user_choice == "SCISSORS"): #To check weather the user has given the correct input
+    decide_winner (user_choice, comp_choice) #Execute this function for correct input
   else:
-    print ("Wrong Choice bruh!!")
+    print ("Wrong Choice bruh!!") #Print this for wrong input
 
 play_RPS()
     

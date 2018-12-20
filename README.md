@@ -1,10 +1,9 @@
-# PythonPractice-RockPaperScissors
+#Python Practice Programs for Beginners
 
-
-The program does the following:
-
-1. Prompt the user to select either Rock, Paper, or Scissors
-2. Instruct the computer to randomly select either Rock, Paper, or Scissors
-3. Compare the user's choice and the computer's choice
-4. Determine a winner (the user or the computer)
-5. Inform the user who the winner is
+1. Rock-Paper-Scissor
+  The program does the following:
+  -Prompt the user to select either Rock, Paper, or Scissors
+  -Instruct the computer to randomly select either Rock, Paper, or Scissors
+  -Compare the user's choice and the computer's choice
+  -Determine a winner (the user or the computer)
+  -Inform the user who the winner is

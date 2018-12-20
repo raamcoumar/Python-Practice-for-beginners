@@ -18,7 +18,7 @@ we'll build a basic calendar that the user will be able to interact with from th
   -Determine a winner (the user or the computer)
   -Inform the user who the winner is
   
-4. < a href="https://github.com/raamcoumar/Python-Practice-for-beginners/blob/master/BattleShip_game.py">Battle Ship Game</a>
+4. <a href="https://github.com/raamcoumar/Python-Practice-for-beginners/blob/master/BattleShip_game.py">Battle Ship Game</a>
   In this project you will build a simplified, one-player version of the classic board game Battleship! In this version of the game, there will be a single ship hidden in a random location on a 5x5 grid. The player will have 4 guesses to try to sink the ship.
   
 5. <a href="https://github.com/raamcoumar/Python-Practice-for-beginners/blob/master/WikiCrawler.py">Automating Wikipedia Crawler</a>

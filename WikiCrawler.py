@@ -26,7 +26,7 @@ target_url = "https://en.wikipedia.org/wiki/Philosophy"
 def find_first_link(url):
     response = requests.get(url)
     html = response.text
-    soup = bs4.BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, "html.parser")
 
     # This div contains the article's body
     content_div = soup.find(id="mw-content-text").find(class_="mw-parser-output")
@@ -79,4 +79,4 @@ while continue_crawl(article_chain, target_url):
 
     article_chain.append(first_link)
 
-    time.sleep(2) # Slow things down so as to not hammer Wikipedia's servers
+    sleep(2) # Slow things down so as to not hammer Wikipedia's servers
